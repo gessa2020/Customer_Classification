@@ -23,6 +23,10 @@ From the historical data, we can train a machine learning product-based segmenta
 
 You can apply this segmentation model to new customer data to predict for each new customer which of the above products  will they subscribe to. With this new data, you can decide which offers are proposed and Which product is offered to which customer.The solutions can be displayed, compared, and analyzed.
 
+## Skilled demonstrated.
+- Python was used for coding the project as well as use of some data science algorithms
+- I used jupyter notebooks as the main IDE for coding
+
 ## Data sourcing
 I got access to the data to address the problem above from a github repository.
 The dataset contains 23 numerical columns namely:
@@ -39,6 +43,5 @@ access the 2017 raw data.
 ## Data tranformation and cleaning.
 1.  I had to first dropped the 'unnamed 0' column since it was not meaningful for our project.
 2.  I removed duplicated data from the dataset 
-3.  There was no missing data so imputation was performed
-4.   
+3.  There was no missing data so imputation was performed   
 
