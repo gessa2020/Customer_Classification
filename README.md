@@ -25,6 +25,10 @@ You can apply this segmentation model to new customer data to predict for each n
 
 ## Data sourcing
 I got access to the data to address the problem above from a github repository.
+The dataset contains 23 numerical columns namely:
+
+'customer_id', 'age', 'age_youngest_child', 'debt_equity', 'gender','bad_payment', 'gold_card', 'pension_plan',
+ 'household_debt_to_equity_ratio', 'income', 'members_in_household','months_current_account', 'months_customer', 'call_center_contacts','loan_accounts', 'number_products', 'number_transactions','non_worker_percentage', 'white_collar_percentage', 'rfm_score','Mortgage', 'Pension', 'Savings', 'nb_products'.
 
 Click <a href="https://raw.githubusercontent.com/vberaudi/utwt/master/unknown_behaviors.csv">HERE</a> to access 
 the 2016 raw data.
