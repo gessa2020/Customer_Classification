@@ -35,3 +35,10 @@ the 2016 raw data.
 
 You can also click <a href="https://raw.githubusercontent.com/vberaudi/utwt/master/unknown_behaviors.csv">HERE</a> to 
 access the 2017 raw data.
+
+## Data tranformation and cleaning.
+1.  I had to first dropped the 'unnamed 0' column since it was not meaningful for our project.
+2.  I removed duplicated data from the dataset 
+3.  There was no missing data so imputation was performed
+4.   
+
