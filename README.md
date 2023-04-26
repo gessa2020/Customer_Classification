@@ -12,16 +12,17 @@ __The marketing department needs to decide:__
 - Will such campaigns be profitable?
 
 ##  Problem statement 
-__Predict which among the given bank products would be consumed by a customer__
+__Given a set of bank products,Predict which of them would be consumed by a customer__
 
 <h3>Objectives</h3>
 Our assignment is to develop clustering models through which we can  group customers in clusters and be able to know which of the given products could be recommended to them depending on the cluster they belong to. 
  
 
-<h4>Segmentation workflow</h4>
-From the historical data, we can train a machine learning product-based segmentation model on customer profile variables to group customers in categories also known as clusters and depending on the cluster a  customer belongs to, we can base on that information to know if  a customer would subscribe to a <b> mortgage </b> , <b> savings</b>, or <b> pension</b> account product.
+<h4>Classification workflow</h4>
+From the historical data, we can train a machine learning product-based classification model on customer profile variables to predict a product class that a customer would belong to, we can base on that information to know if  a customer would subscribe to a <b> mortgage </b> , <b> savings</b>, or <b> pension</b> acc account.
 
-You can apply this segmentation model to new customer data to predict for each new customer which of the above products  will they subscribe to. With this new data, you can decide which offers are proposed and Which product is offered to which customer.The solutions can be displayed, compared, and analyzed.
+You can apply this classification model to new customer data to predict a product that would they subscribe to. 
+Using this prediction, you can decide which offers are proposed and Which product is offered to which customer.The solutions can be displayed, compared, and analyzed.
 
 ## Skilled demonstrated.
 - Python was used for coding the project as well as use of some data science algorithms
@@ -43,5 +44,10 @@ access the 2017 raw data.
 ## Data tranformation and cleaning.
 1.  I had to first dropped the 'unnamed 0' column since it was not meaningful for our project.
 2.  I removed duplicated data from the dataset 
-3.  There was no missing data so imputation was performed   
+3.  There was no missing data so imputation was performed
+4.  For purposes of creating meaningful visualizations, we encoded the gender column into male and female values
+5.  We also encoded other categorical values into Yes and NO values to create meaningful visualizations
+
+## Data Analysis and Visualization
+![](IMAGES/Image1.jpg)
 
